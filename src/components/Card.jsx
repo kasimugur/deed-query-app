@@ -1,35 +1,52 @@
-import React, { useEffect, useRef, useState } from 'react'
-import List from './List'
-import axios from 'axios'
-import { SiteContext } from "../context/Page"
-import { dataDeedJson } from '../page/dataDeed'
-
-
+import React, { useEffect, useRef, useState } from "react";
+import List from "./List";
+import axios from "axios";
+import { SiteContext } from "../context/Page";
+import { dataDeedJson } from "../page/dataDeed";
 
 export default function Card() {
-  const [dataDeed, setDataDeed] = useState();
-  const  [option , setOption] = useState();
-  const  optionFieldRef = useRef();
+  const [listQuery, setListQuery] = useState();
+  const [fieldOption, setFieldOption] = useState();
+  const [filterName, setFilterName] = useState("all");
 
-  const parcelNo = [...new Set(dataDeedJson.map(parcel => parcel.parsel_no))]
+  const parcelNo = [...new Set(dataDeedJson.map((parcel) => parcel.parsel_no))];
   // parsel no
-  const islandNo = [...new Set(dataDeedJson.map(island => island.ada_no))]
-  // ada no 
-  const uniqueFieldIsimleri = [...new Set(dataDeedJson.map(field => field.tarla_ismi))];
-  // tarla isimleri 
+  const islandNo = [...new Set(dataDeedJson.map((island) => island.ada_no))];
+  // ada no
+  const uniqueFieldIsimleri = [
+    ...new Set(dataDeedJson.map((field) => field.tarla_ismi)),
+  ];
+  // tarla isimleri
+  const fieldQuery = dataDeedJson.filter((e) => e.tarla_ismi === filterName);
+
+  const handleSubmit = () => {
+    // switch (filterName) {
+    //   case fieldOption:
+    //     return ;
+    // }
+    if (fieldQuery) {
+      return fieldQuery.forEach((element) => {
+        setListQuery(element);
+      });
+    }
+  };
+
   const data = {
+    fieldOption,
+  };
 
-  }
-
-  // console.log(optionFieldRef.current.index )
   return (
     <>
-
-      <SiteContext.Provider value={data} >
+      <SiteContext.Provider value={data}>
         <List />
-        <select name={"bir isim seçiniZ"}>
+        <select>
           {uniqueFieldIsimleri.map((field, index) => (
-            <option  key={index} value={field}>
+            <option
+              onClick={(e) => setFilterName(e.target.value)}
+              onChange={(e) => setOption(e.target.value)}
+              key={index}
+              value={field}
+            >
               {field}
             </option>
           ))}
@@ -48,9 +65,7 @@ export default function Card() {
             </option>
           ))}
         </select>
-
       </SiteContext.Provider>
-
     </>
-  )
+  );
 }
