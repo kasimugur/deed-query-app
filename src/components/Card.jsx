@@ -7,43 +7,39 @@ import { dataDeedJson } from "../page/dataDeed";
 export default function Card() {
   const [listQuery, setListQuery] = useState();
   const [fieldOption, setFieldOption] = useState();
-  const [filterName, setFilterName] = useState("all");
+  const [filterName, setFilterName] = useState('');
 
   const parcelNo = [...new Set(dataDeedJson.map((parcel) => parcel.parsel_no))];
   // parsel no
+
   const islandNo = [...new Set(dataDeedJson.map((island) => island.ada_no))];
   // ada no
-  const uniqueFieldIsimleri = [
-    ...new Set(dataDeedJson.map((field) => field.tarla_ismi)),
-  ];
+
+  const uniqueFieldIsimleri = [...new Set(dataDeedJson.map((field) => field.tarla_ismi))];
   // tarla isimleri
-  const fieldQuery = dataDeedJson.filter((e) => e.tarla_ismi === filterName);
 
-  const handleSubmit = () => {
-    // switch (filterName) {
-    //   case fieldOption:
-    //     return ;
-    // }
-    if (fieldQuery) {
-      return fieldQuery.forEach((element) => {
-        setListQuery(element);
-      });
-    }
+  const handleChange = (event) => {
+    setFilterName(event.target.value);
   };
-
   const data = {
     fieldOption,
   };
+
+  const handleSubmit = () => {
+
+    console.log(filterName)
+  }
+  const dataNames = dataDeedJson.filter(e => e.tarla_ismi === filterName )
+  const dataBag = dataDeedJson.filter(e => e.tarla_ismi === filterName )
+  console.log()
 
   return (
     <>
       <SiteContext.Provider value={data}>
         <List />
-        <select>
+        <select   onChange={handleChange}>
           {uniqueFieldIsimleri.map((field, index) => (
             <option
-              onClick={(e) => setFilterName(e.target.value)}
-              onChange={(e) => setOption(e.target.value)}
               key={index}
               value={field}
             >
@@ -51,20 +47,21 @@ export default function Card() {
             </option>
           ))}
         </select>
-        <select>
-          {islandNo.map((island, index) => (
-            <option value={island} key={index}>
-              {island}
-            </option>
+        <h1 className="text-2xl text-red-700 bg-cyan-400">
+          {filterName}
+        </h1>
+          {dataNames.map((e, i) => (
+            <div key={i}>
+            <h2>{e.tarla_ismi} </h2>
+            <h2>{e.ada_no} </h2>
+            <h2>{e.metrekare} </h2>
+            <h2>{e.parsel_no} </h2>
+            <h2>{e.sulak_mi} </h2>
+            <h2>{e.türü} </h2>
+            </div>
           ))}
-        </select>
-        <select>
-          {parcelNo.map((parcel, index) => (
-            <option value={parcel} key={index}>
-              {parcel}
-            </option>
-          ))}
-        </select>
+      
+        <button className="bg-cyan-500 ml-4 p-2" onClick={() => handleSubmit()}>liste</button>
       </SiteContext.Provider>
     </>
   );
