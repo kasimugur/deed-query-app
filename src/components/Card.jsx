@@ -8,6 +8,7 @@ export default function Card() {
   const [listQuery, setListQuery] = useState();
   const [fieldOption, setFieldOption] = useState();
   const [filterName, setFilterName] = useState('');
+  const [filterNameTyp, setFilterNameTyp] = useState('');
 
   const parcelNo = [...new Set(dataDeedJson.map((parcel) => parcel.parsel_no))];
   // parsel no
@@ -18,50 +19,70 @@ export default function Card() {
   const uniqueFieldIsimleri = [...new Set(dataDeedJson.map((field) => field.tarla_ismi))];
   // tarla isimleri
 
+  const deedType = [...new Set(dataDeedJson.map(typ => typ.türü))]
+  // tapu türleri 
+
   const handleChange = (event) => {
     setFilterName(event.target.value);
   };
-  const data = {
-    fieldOption,
+
+  const handleChangeTyp = (event) => {
+    setFilterNameTyp(event.target.value);
   };
 
-  const handleSubmit = () => {
 
-    console.log(filterName)
-  }
-  const dataNames = dataDeedJson.filter(e => e.tarla_ismi === filterName )
-  const dataBag = dataDeedJson.filter(e => e.tarla_ismi === filterName )
-  console.log()
+
+
+  // const handleSubmit = () => {
+
+  //   console.log(filterName)
+  // }
+
+  const dataNames = dataDeedJson.filter(e => e.tarla_ismi === filterName)
+
+  const dataBag = dataDeedJson.filter(e => e.türü === filterNameTyp)
+
+  console.log(dataBag)
+
+  const data = {
+    fieldOption,
+    dataNames
+  };
 
   return (
     <>
       <SiteContext.Provider value={data}>
-        <List />
-        <select   onChange={handleChange}>
-          {uniqueFieldIsimleri.map((field, index) => (
-            <option
-              key={index}
-              value={field}
-            >
-              {field}
-            </option>
-          ))}
-        </select>
-        <h1 className="text-2xl text-red-700 bg-cyan-400">
-          {filterName}
-        </h1>
-          {dataNames.map((e, i) => (
-            <div key={i}>
-            <h2>{e.tarla_ismi} </h2>
-            <h2>{e.ada_no} </h2>
-            <h2>{e.metrekare} </h2>
-            <h2>{e.parsel_no} </h2>
-            <h2>{e.sulak_mi} </h2>
-            <h2>{e.türü} </h2>
-            </div>
-          ))}
-      
-        <button className="bg-cyan-500 ml-4 p-2" onClick={() => handleSubmit()}>liste</button>
+        
+        <div className="flex flex-col justify-center ">
+
+          <div className=" md:gap-x-20 flex w-full h-36 mt-10 p-2 justify-center items-center ">
+            
+            <select className=" max-h-28 w-28 p-2 rounded-md  outline-none" onChange={handleChange}>
+              {uniqueFieldIsimleri.map((field, index) => (
+                <option className="text-xs md:text-sm" key={index} value={field} >
+                  {field}
+                </option>
+              ))}
+            </select>
+
+            <select className=" p-2 rounded-md  outline-none" onChange={handleChangeTyp}>
+              {deedType.map((typ, i) => (
+                <option value={typ} key={i}>
+                  {typ}
+                </option>
+              ))
+              }
+            </select>
+
+          </div>
+
+          <List />
+
+          
+
+          {/* <button className="bg-cyan-500 ml-4 p-2" onClick={() => handleSubmit()}>liste</button> */}
+
+        </div>
       </SiteContext.Provider>
     </>
   );
