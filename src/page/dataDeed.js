@@ -5,7 +5,8 @@ const dataDeedJson = [
     "tarla_ismi": "Karakaya",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 785.18
+    "metrekare": 785.18,
+    "url_data": ""
   },
   {
     "ada_no": 117,
@@ -13,7 +14,8 @@ const dataDeedJson = [
     "tarla_ismi": "Karakaya",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 649.84
+    "metrekare": 649.84,
+    "url_data": ""
   },
   {
     "ada_no": 117,
@@ -21,7 +23,8 @@ const dataDeedJson = [
     "tarla_ismi": "Karakaya",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 9.336
+    "metrekare": 9.336,
+    "url_data": ""
   },
   {
     "ada_no": 117,
@@ -29,7 +32,8 @@ const dataDeedJson = [
     "tarla_ismi": "Karakaya",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 1731.73
+    "metrekare": 1731.73,
+    "url_data": ""
   },
   {
     "ada_no": 117,
@@ -37,7 +41,8 @@ const dataDeedJson = [
     "tarla_ismi": "Horamsa",
     "türü": "Tarla",
     "sulak_mi": true,
-    "metrekare": 6992.76
+    "metrekare": 6992.76,
+    "url_data": "https://parselsorgu.tkgm.gov.tr/#ara/cografi/37.11322607478183/32.876546680927284"
   },
   {
     "ada_no": 117,
@@ -45,7 +50,8 @@ const dataDeedJson = [
     "tarla_ismi": "Horamsa",
     "türü": "Tarla",
     "sulak_mi": true,
-    "metrekare": 1140.92
+    "metrekare": 1140.92,
+    "url_data": ""
   },
   {
     "ada_no": 117,
@@ -53,23 +59,26 @@ const dataDeedJson = [
     "tarla_ismi": "Konya saric",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 3239.13
+    "metrekare": 3239.13,
+    "url_data": ""
   },
   {
     "ada_no": 117,
-    "parsel_no": 625,
+    "parsel_no": 425,
     "tarla_ismi": "Konya saric",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 2446.56
+    "metrekare": 2446.56,
+    "url_data": ""
   },
   {
     "ada_no": 117,
-    "parsel_no": 661,
+    "parsel_no": 461,
     "tarla_ismi": "Konya saric (bağyeri)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 3266.80
+    "metrekare": 3266.80,
+    "url_data": ""
   },
   {
     "ada_no": 117,
@@ -77,7 +86,8 @@ const dataDeedJson = [
     "tarla_ismi": "Konya saric (bağyeri)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 1138.97
+    "metrekare": 1138.97,
+    "url_data": ""
   },
   {
     "ada_no": 117,
@@ -85,7 +95,8 @@ const dataDeedJson = [
     "tarla_ismi": "Yarıgediği",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 3359.93
+    "metrekare": 3359.93,
+    "url_data": ""
   },
   {
     "ada_no": 119,
@@ -93,7 +104,8 @@ const dataDeedJson = [
     "tarla_ismi": "Kel bahçe",
     "türü": "bahçe",
     "sulak_mi": false,
-    "metrekare": 305.41
+    "metrekare": 305.41,
+    "url_data": ""
   },
   {
     "ada_no": 123,
@@ -101,7 +113,8 @@ const dataDeedJson = [
     "tarla_ismi": "Kızılyer",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 2445.60
+    "metrekare": 2445.60,
+    "url_data": ""
   },
   {
     "ada_no": 123,
@@ -109,7 +122,8 @@ const dataDeedJson = [
     "tarla_ismi": "Kızılyer",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 589.71
+    "metrekare": 589.71,
+    "url_data": ""
   },
   {
     "ada_no": 123,
@@ -117,7 +131,8 @@ const dataDeedJson = [
     "tarla_ismi": "Hamur kesen (ismail yeri)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 3861.72
+    "metrekare": 3861.72,
+    "url_data": ""
   },
   {
     "ada_no": 132,
@@ -125,7 +140,8 @@ const dataDeedJson = [
     "tarla_ismi": "Yeşil armutlar",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 12233.68
+    "metrekare": 12233.68,
+    "url_data": ""
   },
   {
     "ada_no": 132,
@@ -133,7 +149,8 @@ const dataDeedJson = [
     "tarla_ismi": "Yeşil armutlar",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 9803.82
+    "metrekare": 9803.82,
+    "url_data": ""
   },
   {
     "ada_no": 132,
@@ -141,7 +158,8 @@ const dataDeedJson = [
     "tarla_ismi": "Yeşil armutlar",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 4117.68
+    "metrekare": 4117.68,
+    "url_data": ""
   },
   {
     "ada_no": 132,
@@ -149,7 +167,8 @@ const dataDeedJson = [
     "tarla_ismi": "Yeni yer",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 6027.54
+    "metrekare": 6027.54,
+    "url_data": ""
   },
   {
     "ada_no": 734,
@@ -157,7 +176,8 @@ const dataDeedJson = [
     "tarla_ismi": "Akçeyokuş ",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 8204.24
+    "metrekare": 8204.24,
+    "url_data": ""
   },
   {
     "ada_no": 734,
@@ -165,7 +185,8 @@ const dataDeedJson = [
     "tarla_ismi": "Akçeyokuş ",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 972.29
+    "metrekare": 972.29,
+    "url_data": ""
   },
   {
     "ada_no": 734,
@@ -173,23 +194,26 @@ const dataDeedJson = [
     "tarla_ismi": "Akçeyokuş ",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 1869.28
+    "metrekare": 1869.28,
+    "url_data": ""
   },
   {
     "ada_no": 196,
     "parsel_no": 149,
-    "tarla_ismi": "Kızılyer",
+    "tarla_ismi": "Kızılyer (ali amcamın yeri)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 968.59
+    "metrekare": 968.59,
+    "url_data": ""
   },
   {
     "ada_no": 196,
     "parsel_no": 156,
-    "tarla_ismi": "Kızılyer",
+    "tarla_ismi": "Kızılyer (ali amcamın yeri)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 825.22
+    "metrekare": 825.22,
+    "url_data": ""
   },
   {
     "ada_no": 204,
@@ -197,7 +221,8 @@ const dataDeedJson = [
     "tarla_ismi": "oren arası",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 3451.65
+    "metrekare": 3451.65,
+    "url_data": ""
   },
   {
     "ada_no": 208,
@@ -205,7 +230,8 @@ const dataDeedJson = [
     "tarla_ismi": "Pamuk (aşaği dere)",
     "türü": "bahçe",
     "sulak_mi": true,
-    "metrekare": 602.26
+    "metrekare": 602.26,
+    "url_data": ""
   },
   {
     "ada_no": 208,
@@ -213,7 +239,8 @@ const dataDeedJson = [
     "tarla_ismi": "Pamuk (yukari dere)",
     "türü": "bahçe",
     "sulak_mi": false,
-    "metrekare": 449.16
+    "metrekare": 449.16,
+    "url_data": ""
   },
   {
     "ada_no": 208,
@@ -221,7 +248,8 @@ const dataDeedJson = [
     "tarla_ismi": "Pamuk (yukari yol kenari dere)",
     "türü": "bahçe",
     "sulak_mi": false,
-    "metrekare": 809.95
+    "metrekare": 809.95,
+    "url_data": ""
   },
   {
     "ada_no": 251,
@@ -229,7 +257,8 @@ const dataDeedJson = [
     "tarla_ismi": "Gök kuyu",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 2760.61
+    "metrekare": 2760.61,
+    "url_data": ""
   },
   {
     "ada_no": 268,
@@ -237,7 +266,8 @@ const dataDeedJson = [
     "tarla_ismi": "Köy önü (yakin olan)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 560.16
+    "metrekare": 560.16,
+    "url_data": ""
   },
   {
     "ada_no": 268,
@@ -245,7 +275,8 @@ const dataDeedJson = [
     "tarla_ismi": "Köy önü (yakin olan)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 1698.24
+    "metrekare": 1698.24,
+    "url_data": ""
   },
   {
     "ada_no": 271,
@@ -253,7 +284,8 @@ const dataDeedJson = [
     "tarla_ismi": "Köy önü (asfaltın sağ tarafı)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 624.55
+    "metrekare": 624.55,
+    "url_data": ""
   },
   {
     "ada_no": 271,
@@ -261,7 +293,8 @@ const dataDeedJson = [
     "tarla_ismi": "Köy önü (asfaltın sağ tarafı)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 848.83
+    "metrekare": 848.83,
+    "url_data": ""
   },
   {
     "ada_no": 271,
@@ -269,7 +302,8 @@ const dataDeedJson = [
     "tarla_ismi": "Köy önü (asfaltın sağ tarafı)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 733.88
+    "metrekare": 733.88,
+    "url_data": ""
   },
   {
     "ada_no": 144,
@@ -277,7 +311,8 @@ const dataDeedJson = [
     "tarla_ismi": "Eskimezer (aşağı bağ)",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 2777.35
+    "metrekare": 2777.35,
+    "url_data": ""
   },
   {
     "ada_no": 144,
@@ -285,7 +320,8 @@ const dataDeedJson = [
     "tarla_ismi": "Eskimezer (aşağı bağ)",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 2440.36
+    "metrekare": 2440.36,
+    "url_data": ""
   },
   {
     "ada_no": 253,
@@ -293,7 +329,8 @@ const dataDeedJson = [
     "tarla_ismi": "Eskimezer (yukarı bağ)",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 6161
+    "metrekare": 6161,
+    "url_data": ""
   },
   {
     "ada_no": 253,
@@ -301,7 +338,8 @@ const dataDeedJson = [
     "tarla_ismi": "Eskimezer (mezar arkası)",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 3140.89
+    "metrekare": 3140.89,
+    "url_data": ""
   },
   {
     "ada_no": 148,
@@ -309,7 +347,8 @@ const dataDeedJson = [
     "tarla_ismi": "Belen (annemin yeri)",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 2790.39
+    "metrekare": 2790.39,
+    "url_data": ""
   },
   {
     "ada_no": 148,
@@ -317,7 +356,8 @@ const dataDeedJson = [
     "tarla_ismi": "Belen (babamın yeri)",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 2628
+    "metrekare": 2628,
+    "url_data": ""
   },
   {
     "ada_no": 148,
@@ -325,7 +365,8 @@ const dataDeedJson = [
     "tarla_ismi": "belen (tarla yer)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 6905.43
+    "metrekare": 6905.43,
+    "url_data": ""
   },
   {
     "ada_no": 148,
@@ -333,7 +374,8 @@ const dataDeedJson = [
     "tarla_ismi": "ismail yeri",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 4537.54
+    "metrekare": 4537.54,
+    "url_data": ""
   },
   {
     "ada_no": 175,
@@ -341,7 +383,8 @@ const dataDeedJson = [
     "tarla_ismi": "Ortalık",
     "türü": "bahçe",
     "sulak_mi": true,
-    "metrekare": 774.22
+    "metrekare": 774.22,
+    "url_data": ""
   },
   {
     "ada_no": 175,
@@ -349,7 +392,8 @@ const dataDeedJson = [
     "tarla_ismi": "Ortalık",
     "türü": "bahçe",
     "sulak_mi": true,
-    "metrekare": 289.38
+    "metrekare": 289.38,
+    "url_data": ""
   },
   {
     "ada_no": 175,
@@ -357,7 +401,8 @@ const dataDeedJson = [
     "tarla_ismi": "Ortalık",
     "türü": "bahçe",
     "sulak_mi": true,
-    "metrekare": 359.53
+    "metrekare": 359.53,
+    "url_data": ""
   },
   {
     "ada_no": 175,
@@ -365,7 +410,8 @@ const dataDeedJson = [
     "tarla_ismi": "Ortalık",
     "türü": "bahçe",
     "sulak_mi": true,
-    "metrekare": 267.09
+    "metrekare": 267.09,
+    "url_data": ""
   },
   {
     "ada_no": 185,
@@ -373,7 +419,8 @@ const dataDeedJson = [
     "tarla_ismi": "Gafar yeri",
     "türü": "bahçe",
     "sulak_mi": true,
-    "metrekare": 1023.71
+    "metrekare": 1023.71,
+    "url_data": ""
   },
   {
     "ada_no": 185,
@@ -381,7 +428,8 @@ const dataDeedJson = [
     "tarla_ismi": "Kesik bağı",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 2901.88
+    "metrekare": 2901.88,
+    "url_data": ""
   },
   {
     "ada_no": 185,
@@ -389,7 +437,8 @@ const dataDeedJson = [
     "tarla_ismi": "Yeni mere",
     "türü": "Bağ",
     "sulak_mi": false,
-    "metrekare": 2164.99
+    "metrekare": 2164.99,
+    "url_data": ""
   },
   {
     "ada_no": 185,
@@ -397,7 +446,8 @@ const dataDeedJson = [
     "tarla_ismi": "Göver bükü",
     "türü": "bahçe",
     "sulak_mi": true,
-    "metrekare": 238.02
+    "metrekare": 238.02,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -405,7 +455,8 @@ const dataDeedJson = [
     "tarla_ismi": "Hamur kesen (ağaclarla çevirili yer)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 5289.06
+    "metrekare": 5289.06,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -413,7 +464,8 @@ const dataDeedJson = [
     "tarla_ismi": "Hamur kesen (ağaclarla çevirili yer)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 1095.25
+    "metrekare": 1095.25,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -421,7 +473,8 @@ const dataDeedJson = [
     "tarla_ismi": "Hamur kesen (koca ağacın olduğu yer) ",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 2202.91
+    "metrekare": 2202.91,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -429,7 +482,8 @@ const dataDeedJson = [
     "tarla_ismi": "Hamur kesen (koca ağacın olduğu yer) ",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 983.85
+    "metrekare": 983.85,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -437,7 +491,8 @@ const dataDeedJson = [
     "tarla_ismi": "Hamur kesen (koca ağacın olduğu yer) ",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 3216.11
+    "metrekare": 3216.11,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -445,7 +500,8 @@ const dataDeedJson = [
     "tarla_ismi": "Kızılyer (asfalt kenarı)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 	3851.32
+    "metrekare": 	3851.32,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -453,7 +509,8 @@ const dataDeedJson = [
     "tarla_ismi": "Kızılyer (asfalt kenarı)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 2743.91
+    "metrekare": 2743.91,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -461,7 +518,8 @@ const dataDeedJson = [
     "tarla_ismi": "Kızılyer (asfalt kenarı)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 	1776.19
+    "metrekare": 	1776.19,
+    "url_data": ""
   },
   {
     "ada_no": 196,
@@ -469,7 +527,8 @@ const dataDeedJson = [
     "tarla_ismi": "Hamur kesen (ismail yeri)",
     "türü": "Tarla",
     "sulak_mi": false,
-    "metrekare": 		506.40
+    "metrekare": 		506.40,
+    "url_data": ""
   }
   
 ]

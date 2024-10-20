@@ -26,9 +26,9 @@ export default function List() {
               </div>
               <div className=" flex justify-center  ">
                 <h2>Metrekare =  {e.metrekare}m² </h2>
-                {/* <h2> {e.sulak_mi} </h2> */}
                 
               </div>
+              <a href={e.url_data}>tapuya git </a>
             </div>
           </div>
 
